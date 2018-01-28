@@ -1,6 +1,6 @@
 # Vanilla - tiny test runner
 
-This is a very simple implementation of a test runner, which helps to understand how a it works under the hood. As you might guess, a lot of the features are missing and you can add most of them yourself.
+This is a very simple implementation of a test runner, which helps to understand how it works under the hood. As you might guess, a lot of the features are missing and you can add most of them yourself.
 
 __Here are some of the links we've seen at the talk:__
 * [Install bin files in PATH using npm](https://docs.npmjs.com/files/package.json#bin)
