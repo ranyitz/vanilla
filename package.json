@@ -1,15 +1,16 @@
 {
   "name": "vanilla",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Tiny test runner for learning purposes",
+  "main": "./src/runner.js",
   "bin": "./bin/vanilla.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./bin/vanilla.js",
+    "lint": "eslint ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["test-runner", "tiny", "vanilla", "testing", "runner", "simple"],
+  "author": "Ran Yitzhaki",
+  "license": "MIT",
   "dependencies": {
     "chalk": "~2.3.0",
     "tap-nyan": "~1.1.0",
