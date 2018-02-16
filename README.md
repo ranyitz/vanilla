@@ -21,8 +21,7 @@ Run the following commands from the terminal
 
 ```bash
 npm install
-npm link
-vanilla
+npm test
 ```
 
 ## Aditional features
@@ -36,7 +35,7 @@ Try to implement the following features under the current infrastructure.
 __Guidance__
 
 1. Write the usage of the feature on the example project.
-2. Run `vanilla` and let it fail.
+2. Run `npm test` and let it fail.
 3. Add the relevant global to the `rewireGlobals` function.
 4. Add the new state under the constructor.
 5. Change the `run` function accordingly.
@@ -44,6 +43,5 @@ __Guidance__
 __Good Luck!__ :smiley:
 
 ## FAQ
-* How can i remove the global `vanilla` command?
-
-You can use `npm unlink` from the vanilla directory or just remove the `/usr/local/bin/vanilla` file.
+* How can i install the global `vanilla` command? - Use `npm link` from the main directory.
+* How can i remove the global `vanilla` command? - You can use `npm unlink` from the vanilla directory.
