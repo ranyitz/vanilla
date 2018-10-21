@@ -1,3 +1,7 @@
+> "What I cannot create, I do not understand."
+>
+> -- <cite>Richard P. Feynman</cite>
+
 # Vanilla - tiny test runner
 
 This is a very simple implementation of a test runner, which helps to understand how it works under the hood. As you might guess, a lot of the features are missing and you can add most of them yourself.
